@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sistem manajemen penjualan beras untuk pembeli dan admin."
+    />
+    <title>BerasKita - Sistem Penjualan Beras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="BerasKita">
+        <span class="brand-mark">BK</span>
+        <span>
+          <strong>BerasKita</strong>
+          <small>Segar, berkualitas, terpercaya</small>
+        </span>
+      </a>
+      <nav id="main-nav" class="main-nav" aria-label="Navigasi utama"></nav>
+      <button id="menu-button" class="menu-button" aria-label="Buka menu">☰</button>
+    </header>
+
+    <main id="app"></main>
+
+    <footer>
+      <div>
+        <strong>BerasKita</strong>
+        <p>Sistem manajemen penjualan beras berbasis web.</p>
+      </div>
+      <p>© <span id="year"></span> BerasKita</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
